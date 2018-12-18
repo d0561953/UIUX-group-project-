@@ -1,0 +1,279 @@
+<html><head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <div class="p-3 mb-2 bg-dark text-white"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1" href="ZT_Forum.html">ZTForum</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item ">
+                    <!-- <p class="text-white bg-dark">Username</p> -->
+                    <a class="nav-link color-me">Username:</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-2 col-md-2">
+                <div class="d-flex align-items-center" style="height: 100px;">
+                    <!-- --<button type="button" class="btn btn-primary btn-md"-->
+<input type="button" onclick="location.href='./login.html';" value="Login" style="
+    width: 74px;
+    height: 31px;
+">
+                    <!-- <button type="button" class="btn btn-primary btn-lg">Login</button> -->
+</div>
+<hr>
+                <div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search..." aria-describedby="basic-addon2">
+                        <button>
+                            <i class="fas fa-search"></i>
+                        </button>
+                        
+                        <!-- <span class="glyphicon glyphicon-search"></span> -->
+ </div>
+ <p class="text-left font-weight-bold">Type</p>
+<div class="list-group" id="list-tab" role="tablist">
+<a class="list-group-item list-group-item-action" id="list-Sport-list" data-toggle="list" href="#list-Sport" role="tab" aria-controls="Sport" aria-selected="false">Sport</a>
+<a class="list-group-item list-group-item-action" id="list-Game-list" data-toggle="list" href="#list-Game" role="tab" aria-controls="Game" aria-selected="false">Game</a>
+<a class="list-group-item list-group-item-action" id="list-Entertainment-list" data-toggle="list" href="#list-Entertainment" role="tab" aria-controls="Entertainment" aria-selected="false">Entertainment</a>
+<a class="list-group-item list-group-item-action" id="list-News-list" data-toggle="list" href="#list-News" role="tab" aria-controls="News" aria-selected="false">News</a>
+<a class="list-group-item list-group-item-action" id="list-Other3-list" data-toggle="list" href="#list-Other3" role="tab" aria-controls="Other3" aria-selected="false">Other3</a>
+<a class="list-group-item list-group-item-action" id="list-Other4-list" data-toggle="list" href="#list-Other4" role="tab" aria-controls="Other4" aria-selected="false">Other4</a>
+<a class="list-group-item list-group-item-action" id="list-Other5-list" data-toggle="list" href="#list-Other5" role="tab" aria-controls="Other5" aria-selected="false">Other5</a>
+<a class="list-group-item list-group-item-action" id="list-Other6-list" data-toggle="list" href="#list-Other6" role="tab" aria-controls="Other6" aria-selected="false">Other6</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8">
+<div style="border:2px solid black;border:2px solid black height: 100px;">
+<div class="d-flex align-items-center d-flex justify-content-center" style="height: 73px;background-color: burlywood;"></div>
+</div>
+ <br>
+<hr>
+<br>
+<div class="container d-flex flex-column " style="border: 2px solid black;">
+		<div style="height: 30px">
+				<div class="d-flex align-items-center d-flex justify-content-left" id = "top5";>
+				<h4>Top5</h4>
+				</div>
+		</div>  
+		
+<!-- dynamic change content -->
+
+<div class="tab-content d-flex align-items-baseline" id="nav-tabContent">
+    
+                    
+<div class="tab-pane fade" id="list-Sport" role="tabpanel" aria-labelledby="list-Sport-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">Sport Information.</div>
+
+<div class="tab-pane fade" id="list-Game" role="tabpanel" aria-labelledby="list-Game-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">Game Information.</div>
+
+<div class="tab-pane fade" id="list-Entertainment" role="tabpanel" aria-labelledby="list-Entertainment-list" style="
+    height: 35px;
+    width: 350px;
+    font-size: x-large;
+">Entertainment Information.</div>
+                    <div class="tab-pane fade" id="list-News" role="tabpanel" aria-labelledby="list-News-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">News Information.</div>
+                    <div class="tab-pane fade" id="list-Other3" role="tabpanel" aria-labelledby="list-Other3-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">Other3</div>
+                    <div class="tab-pane fade" id="list-Other4" role="tabpanel" aria-labelledby="list-Other4-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">Other4</div>
+                    <div class="tab-pane fade" id="list-Other5" role="tabpanel" aria-labelledby="list-Other5-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">Other5</div>
+                    <div class="tab-pane fade" id="list-Other6" role="tabpanel" aria-labelledby="list-Other6-list" style="
+    height: 35px;
+    width: 260px;
+    font-size: x-large;
+">Other6</div>
+                   </div>
+
+<!-- end of dynamic change content -->
+
+
+
+<div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                 <h5 class="mt-0">Title</h5>
+
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="height: 100px;">
+                        <div class="media" style="height: 80px;">
+                            <img class="align-self-center mr-3" src=".\list.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Title</h5>
+                                <p>Comment</p>
+                                <p class="mb-0">Donnet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-md-2">
+                <div class="col">
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                    <div style="height: 120px;">
+                        <div class="d-flex justify-content-center d-flex align-items-center" style="width: 100px; height: 100px;">Ads</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <h1>Helloworld</h1>fixed-bottom d-flex -->
+    </div>
+    <div class="card-footer text-muted justify-content-center d-flex align-items-center" style="height: 50px; background-color:grey;">
+        <div style="color:gold;">
+            <h3>Footer</h3>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+        $("#list-tab").click(
+            function(){
+                let toptable = $("#top-5-table");
+                let top5 = $("#top5");
+                //toptable.remove();
+                top5.remove();
+            }
+        )
+    </script>
+
+
+</body></html>

@@ -1,0 +1,101 @@
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+
+width:1439px;
+height:1024px;
+font-weight:bold;
+color:#FFFFFF;
+text-align:center;
+padding:7px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:black;
+}
+
+#header{
+	background-color:black;
+	color:black;
+	text-align:center;
+	padding:10px;
+}
+#nav{
+	line-height:90%;
+	background-color:black;
+	height:auto;
+	width:auto;
+	float:left;
+	padding:10px;
+}
+section{
+    width:370px;
+    float:left;
+    padding:10px;	 	 
+}
+.name{
+   color: blue;
+   padding:10px;
+   text-align:center;
+}
+#footer {
+    background-color:orange;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+p.a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:120%;
+    color:white;
+    font-weight:bold;
+}
+
+p.b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:120%;
+    color:white;
+    font-weight:bold;
+}
+
+p.c{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:120%;
+    color:white;
+    font-weight:bold;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: none;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url('beach_night.jpg');
+  height: 100%;
+  weight: 100%; 
+}
